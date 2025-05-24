@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo Theme Dream</title>
+    <link>https://like-nanan.github.io/posts/</link>
+    <description>Recent content in Posts on Hugo Theme Dream</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 May 2025 17:00:59 +0800</lastBuildDate>
+    <atom:link href="https://like-nanan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assingment1</title>
+      <link>https://like-nanan.github.io/posts/assingment1/</link>
+      <pubDate>Sat, 24 May 2025 17:00:59 +0800</pubDate>
+      <guid>https://like-nanan.github.io/posts/assingment1/</guid>
+      <description>&lt;h1 id=&#34;matrix-multiplication-project-report&#34;&gt;&lt;strong&gt;Matrix Multiplication Project Report&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Student Name&lt;/strong&gt;: KeXin Li&#xA;&lt;strong&gt;Student ID&lt;/strong&gt;: ZY2457B14&#xA;&lt;strong&gt;Submission Date&lt;/strong&gt;: 2025.3.26&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
