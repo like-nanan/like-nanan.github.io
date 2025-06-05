@@ -3,14 +3,14 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment4 | Hugo Theme Dream</title>
+    <title>Assignment4 | This is Kexin&#39;s Blog</title>
 
     
 
-<link rel="canonical" href="http://localhost:1313/posts/assignment4/" />
+<link rel="canonical" href="https://like-nanan.github.io/posts/assignment4/" />
 
 
 
@@ -25,8 +25,8 @@
 <meta name="generator" content="Hugo 0.147.5">
 
 
-<meta property="og:url" content="http://localhost:1313/posts/assignment4/">
-  <meta property="og:site_name" content="Hugo Theme Dream">
+<meta property="og:url" content="https://like-nanan.github.io/posts/assignment4/">
+  <meta property="og:site_name" content="This is Kexin&#39;s Blog">
   <meta property="og:title" content="Assignment4">
   <meta property="og:description" content="Developing an Application with the Aid of LLM">
   <meta property="og:locale" content="en">
@@ -47,7 +47,9 @@
 
 
 
-<link rel="stylesheet" href="/css/output.css" />
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
 
 
 
@@ -97,7 +99,7 @@
       
       <div>
         
-        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+        <a href="https://like-nanan.github.io/" class="text-lg font-semibold cursor-pointer">
           Kexin&#39;s blog
         </a>
         
@@ -245,7 +247,7 @@
   <meta itemprop="description" content="Developing an Application with the Aid of LLM">
   <meta itemprop="datePublished" content="2025-05-24T19:30:41+08:00">
   <meta itemprop="dateModified" content="2025-05-24T19:30:41+08:00">
-  <meta itemprop="wordCount" content="14">
+  <meta itemprop="wordCount" content="270">
   <meta itemprop="keywords" content="Tag1,Tag2">
 
       <header>
@@ -255,7 +257,7 @@
             Saturday, May 24, 2025
           
 
-          | <span>1 minute read</span>
+          | <span>2 minute read</span>
 
           
           | <span>Updated at
@@ -296,19 +298,19 @@
   
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://x.com/intent/post?text=Assignment4&amp;url=http://localhost:1313/posts/assignment4/" target="_blank" rel="noopener noreferrer"
+      href="https://x.com/intent/post?text=Assignment4&amp;url=https://like-nanan.github.io/posts/assignment4/" target="_blank" rel="noopener noreferrer"
       title="Share on X">
       <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/assignment4/" target="_blank" rel="noopener noreferrer"
+      href="https://facebook.com/sharer/sharer.php?u=https://like-nanan.github.io/posts/assignment4/" target="_blank" rel="noopener noreferrer"
       title="Share on Facebook">
       <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://wa.me/?text=Assignment4%20http://localhost:1313/posts/assignment4/" target="_blank" rel="noopener noreferrer"
+      href="https://wa.me/?text=Assignment4%20https://like-nanan.github.io/posts/assignment4/" target="_blank" rel="noopener noreferrer"
       title="Share on WhatsApp">
       <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
     </a>
@@ -325,7 +327,115 @@
         
 
         <h1 id="developing-an-application-with-the-aid-of-llm"><strong>Developing an Application with the Aid of LLM</strong></h1>
-<p>The remaining content of your post.</p>
+<h2 id="i-background-and-functionality"><strong>I. Background and Functionality</strong></h2>
+<p><strong>Design</strong></p>
+<p>This project is a GUI-based Airline Ticket Management System developed in Python. Flight booking is a typical application scenario in intelligent transportation. By implementing this project, we can understand the basic design of booking systems, and how to integrate GUI and file I/O in a Python application.
+It integrates academic interests in intelligent transportation systems and user interaction design.</p>
+<p><strong>Functionalities :</strong></p>
+<ul>
+<li>
+<p>Query flights by ID, departure or destination</p>
+</li>
+<li>
+<p>Add new flights</p>
+</li>
+<li>
+<p>Delete existing flights</p>
+</li>
+<li>
+<p>Purchase ticket from result list</p>
+</li>
+<li>
+<p>Save/load flight data from local file</p>
+</li>
+</ul>
+<p><strong>Challenges:</strong></p>
+<ul>
+<li>
+<p>Managing GUI event logic</p>
+</li>
+<li>
+<p>Handling real-time updates after purchase</p>
+</li>
+<li>
+<p>Packaging Python GUI app on macOS ARM (M1/M2) with Python 3.13</p>
+</li>
+</ul>
+<h2 id="2-development-environment"><strong>2. Development Environment</strong></h2>
+<p><strong>Hardware / OS:</strong></p>
+<ul>
+<li>
+<p>Apple M4 MacBook Air</p>
+</li>
+<li>
+<p>macOS Sonoma 14.5</p>
+</li>
+</ul>
+<p><strong>Tools and Compilers:</strong></p>
+<ul>
+<li>
+<p>Python 3.13.4</p>
+</li>
+<li>
+<p>tkinter (GUI)</p>
+</li>
+<li>
+<p>PyInstaller 5.13.2 (for packaging)</p>
+</li>
+</ul>
+<p><strong>AI Models:</strong></p>
+<ul>
+<li>OpenAI ChatGPT-4 (for code generation, debug, and GUI logic)</li>
+</ul>
+<h2 id="3-development-process"><strong>3. Development Process</strong></h2>
+<h3 id="development-process"><strong>Development Process</strong></h3>
+<ol>
+<li>Download the source file from GitHub</li>
+<li>Discussed core logic with LLM (flight class, system class)
+<img src="/img/a42.png" alt="a42"></li>
+<li>Used ChatGPT change C++ to python
+<img src="/img/a41.png" alt="a41"></li>
+<li>Used ChatGPT to auto-generate tkinter-based GUI skeleton</li>
+<li>Added dynamic update of ticket availability after purchase
+<img src="/img/a45.png" alt="a45"></li>
+<li>Debugged compatibility issues with PyInstaller on macOS M4 + Python 3.13
+<img src="/img/a46.png" alt="a46"></li>
+<li>Generated 100 test entries with AI and wrote to flight_data.txt
+<img src="/img/a47.png" alt="a47"></li>
+<li>Successfully compiled into main executable for macOS</li>
+</ol>
+<h2 id="4-result"><strong>4. Result</strong></h2>
+<h3 id="gui-screenshot"><strong>GUI screenshot</strong></h3>
+<p><img src="/img/a4f.png" alt="a47"></p>
+<ul>
+<li>Query flights:
+<img src="/img/a4q.png" alt="a47"></li>
+<li>Add new flights:
+<img src="/img/a4i.png" alt="a47"></li>
+<li>Delete flights:
+<img src="/img/a4d.png" alt="a47"></li>
+<li>Purchase ticket :
+<img src="/img/a4b.png" alt="a47"></li>
+</ul>
+<h2 id="5-source-code"><strong>5. Source Code</strong></h2>
+
+
+
+  <blockquote>
+    <p>GitHub repo:https://github.com/like-nanan/AIR_ticket_purchasing</p>
+  </blockquote>
+
+<p>Project root:</p>
+<pre tabindex="0"><code>airline_ticket/
+├── main.py
+├── flight.py
+├── flight_system.py
+├── flight_data.txt
+├── gui/
+│   ├── search_flight.py
+│   ├── add_flight.py
+│   └── delete_flight.py
+</code></pre><p>The remaining content of your post.</p>
 
         
       </section>
@@ -351,7 +461,7 @@
   <div>
   
   <p>
-    © 2016 - 2025 Hugo Theme Dream
+    © 2016 - 2025 This is Kexin&#39;s Blog
   </p>
   
 
@@ -416,7 +526,7 @@
   <div>
   
   <p>
-    © 2016 - 2025 Hugo Theme Dream
+    © 2016 - 2025 This is Kexin&#39;s Blog
   </p>
   
 
@@ -476,12 +586,16 @@
 
   
   
-  <script src="/js/grid.js"></script>
+    
+  
+  <script src="/js/grid.min.js"></script>
 
 
 
 
-<script src="/js/main.js"></script>
+  
+
+<script src="/js/main.min.js"></script>
 
     
 
@@ -491,7 +605,9 @@
 
 
 
-<script src="/js/toc.js"></script>
+  
+
+<script src="/js/toc.min.js"></script>
 
 
 

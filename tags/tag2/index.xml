@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag2 on Hugo Theme Dream</title>
-    <link>http://localhost:1313/tags/tag2/</link>
-    <description>Recent content in Tag2 on Hugo Theme Dream</description>
+    <title>Tag2 on This is Kexin&#39;s Blog</title>
+    <link>https://like-nanan.github.io/tags/tag2/</link>
+    <description>Recent content in Tag2 on This is Kexin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 May 2025 17:00:59 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 May 2025 19:30:41 +0800</lastBuildDate>
+    <atom:link href="https://like-nanan.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment4</title>
+      <link>https://like-nanan.github.io/posts/assignment4/</link>
+      <pubDate>Sat, 24 May 2025 19:30:41 +0800</pubDate>
+      <guid>https://like-nanan.github.io/posts/assignment4/</guid>
+      <description>&lt;h1 id=&#34;developing-an-application-with-the-aid-of-llm&#34;&gt;&lt;strong&gt;Developing an Application with the Aid of LLM&lt;/strong&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Assignment3</title>
+      <link>https://like-nanan.github.io/posts/assignment3/</link>
+      <pubDate>Sat, 24 May 2025 19:30:34 +0800</pubDate>
+      <guid>https://like-nanan.github.io/posts/assignment3/</guid>
+      <description>&lt;h1 id=&#34;deployment-and-integration-of-llm&#34;&gt;&lt;strong&gt;Deployment and Integration of LLM&lt;/strong&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Assignment2</title>
+      <link>https://like-nanan.github.io/posts/assignment2/</link>
+      <pubDate>Sat, 24 May 2025 19:30:24 +0800</pubDate>
+      <guid>https://like-nanan.github.io/posts/assignment2/</guid>
+      <description>&lt;h1 id=&#34;static-personal-blog-website&#34;&gt;&lt;strong&gt;Static Personal Blog Website&lt;/strong&gt;&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>Assingment1</title>
-      <link>http://localhost:1313/posts/assingment1/</link>
+      <link>https://like-nanan.github.io/posts/assingment1/</link>
       <pubDate>Sat, 24 May 2025 17:00:59 +0800</pubDate>
-      <guid>http://localhost:1313/posts/assingment1/</guid>
-      <description>&lt;h1 id=&#34;matrix-multiplication-project-report&#34;&gt;&lt;strong&gt;Matrix Multiplication Project Report&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Student Name&lt;/strong&gt;: KeXin Li&#xA;&lt;strong&gt;Student ID&lt;/strong&gt;: ZY2457B14&#xA;&lt;strong&gt;Submission Date&lt;/strong&gt;: 2025.3.26&lt;/p&gt;</description>
+      <guid>https://like-nanan.github.io/posts/assingment1/</guid>
+      <description>&lt;h1 id=&#34;matrix-multiplication-project-report&#34;&gt;&lt;strong&gt;Matrix Multiplication Project Report&lt;/strong&gt;&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

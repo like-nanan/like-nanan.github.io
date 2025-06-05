@@ -3,14 +3,14 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment2 | Hugo Theme Dream</title>
+    <title>Assignment2 | This is Kexin&#39;s Blog</title>
 
     
 
-<link rel="canonical" href="http://localhost:1313/posts/assignment2/" />
+<link rel="canonical" href="https://like-nanan.github.io/posts/assignment2/" />
 
 
 
@@ -25,8 +25,8 @@
 <meta name="generator" content="Hugo 0.147.5">
 
 
-<meta property="og:url" content="http://localhost:1313/posts/assignment2/">
-  <meta property="og:site_name" content="Hugo Theme Dream">
+<meta property="og:url" content="https://like-nanan.github.io/posts/assignment2/">
+  <meta property="og:site_name" content="This is Kexin&#39;s Blog">
   <meta property="og:title" content="Assignment2">
   <meta property="og:description" content="Static Personal Blog Website">
   <meta property="og:locale" content="en">
@@ -47,7 +47,9 @@
 
 
 
-<link rel="stylesheet" href="/css/output.css" />
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
 
 
 
@@ -97,7 +99,7 @@
       
       <div>
         
-        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+        <a href="https://like-nanan.github.io/" class="text-lg font-semibold cursor-pointer">
           Kexin&#39;s blog
         </a>
         
@@ -245,7 +247,7 @@
   <meta itemprop="description" content="Static Personal Blog Website">
   <meta itemprop="datePublished" content="2025-05-24T19:30:24+08:00">
   <meta itemprop="dateModified" content="2025-05-24T19:30:24+08:00">
-  <meta itemprop="wordCount" content="10">
+  <meta itemprop="wordCount" content="354">
   <meta itemprop="keywords" content="Tag1,Tag2">
 
       <header>
@@ -255,7 +257,7 @@
             Saturday, May 24, 2025
           
 
-          | <span>1 minute read</span>
+          | <span>2 minute read</span>
 
           
           | <span>Updated at
@@ -300,19 +302,19 @@
   
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://x.com/intent/post?text=Assignment2&amp;url=http://localhost:1313/posts/assignment2/" target="_blank" rel="noopener noreferrer"
+      href="https://x.com/intent/post?text=Assignment2&amp;url=https://like-nanan.github.io/posts/assignment2/" target="_blank" rel="noopener noreferrer"
       title="Share on X">
       <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/assignment2/" target="_blank" rel="noopener noreferrer"
+      href="https://facebook.com/sharer/sharer.php?u=https://like-nanan.github.io/posts/assignment2/" target="_blank" rel="noopener noreferrer"
       title="Share on Facebook">
       <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://wa.me/?text=Assignment2%20http://localhost:1313/posts/assignment2/" target="_blank" rel="noopener noreferrer"
+      href="https://wa.me/?text=Assignment2%20https://like-nanan.github.io/posts/assignment2/" target="_blank" rel="noopener noreferrer"
       title="Share on WhatsApp">
       <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
     </a>
@@ -329,7 +331,89 @@
         
 
         <h1 id="static-personal-blog-website"><strong>Static Personal Blog Website</strong></h1>
-<p>The remaining content of your post.</p>
+<p><strong>Student Name</strong>: [Kexin Li]</p>
+<p><strong>Student ID</strong>: [ZY2457B14]</p>
+<p><strong>Submission Date</strong>: [2025/5/07]</p>
+<hr>
+<h2 id="i-deployment-process-overview">I. Deployment Process Overview</h2>
+<h3 id="1-local-blog-setup-with-hugo">1. Local Blog Setup with Hugo</h3>
+<h4 id="step-1-install-tools">Step 1: Install Tools</h4>
+<ul>
+<li><strong>Visual Studio Code</strong>: Text editor for editing <code>toml</code>, <code>yaml</code>, and <code>md</code> files.</li>
+<li><strong>Git Bash / PowerShell</strong>: For running commands and managing git repositories.</li>
+<li><strong>Hugo Extended</strong>: Required for building themes that use SCSS.</li>
+</ul>
+<p>Install Hugo using <code>scoop</code> on Windows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>scoop install hugo-extended
+</span></span></code></pre></div><h4 id="step-2-create-hugo-blog">Step 2: Create Hugo Blog</h4>
+<p>Navigate to your desired directory and create the blog:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd D:/Kexin/blog
+</span></span><span style="display:flex;"><span>hugo new site myblog
+</span></span><span style="display:flex;"><span>cd myblog
+</span></span><span style="display:flex;"><span>git init
+</span></span></code></pre></div><h4 id="step-3-add-a-theme">Step 3: Add a Theme</h4>
+<p>Clone the Hugo theme (e.g., Dream) into the <code>themes</code> directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/cycinter/hugo-theme-dream.git themes/dream
+</span></span></code></pre></div><p>Modify <code>hugo.toml</code> in the root directory to include theme configuration (based on the theme&rsquo;s example file).</p>
+<h4 id="step-4-launch-local-server">Step 4: Launch Local Server</h4>
+<p>Start Hugo’s development server to preview the site locally:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>Visit <code>http://localhost:1313/</code> in your browser to view the blog.</p>
+<h3 id="2-publishing-blog-posts">2. Publishing Blog Posts</h3>
+<p>Create a new post using Hugo&rsquo;s CLI:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content/posts/my-first-post.md
+</span></span></code></pre></div><p>Edit the generated Markdown file to add content. Set <code>draft = false</code> in the front matter to make it publicly visible.</p>
+<hr>
+<h2 id="ii-github-deployment-with-dual-repositories">II. GitHub Deployment with Dual Repositories</h2>
+<h3 id="step-1-create-github-repositories">Step 1: Create GitHub Repositories</h3>
+<ul>
+<li><strong>Repository 1 (source)</strong>: Contains all the Hugo source files.</li>
+<li><strong>Repository 2 (pages)</strong>: Must be named <code>yourusername.github.io</code> and used for GitHub Pages deployment.</li>
+</ul>
+<p>Create a <strong>Personal Access Token (PAT)</strong> on GitHub with permissions: <code>repo</code>, <code>workflow</code>, <code>admin:repo_hook</code>.</p>
+<h3 id="step-2-configure-github-actions-workflow">Step 2: Configure GitHub Actions Workflow</h3>
+<p>Create <code>.github/workflows/hugo.yaml</code> in your project root:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">GitHub Pages</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">push</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">branches</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">deploy</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-20.04</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v3</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">submodules</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">fetch-depth</span>: <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Setup Hugo</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-hugo@v2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">hugo-version</span>: <span style="color:#ae81ff">0.139.4</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">extended</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: <span style="color:#ae81ff">hugo --minify</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-gh-pages@v3</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">personal_token</span>: <span style="color:#ae81ff">${{ secrets.MYTOKEN }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">external_repository</span>: <span style="color:#ae81ff">yourusername/yourusername.github.io</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">publish_dir</span>: <span style="color:#ae81ff">./public</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">publish_branch</span>: <span style="color:#ae81ff">main</span>
+</span></span></code></pre></div><h3 id="step-3-push-to-github">Step 3: Push to GitHub</h3>
+<p>Set main branch, add remotes, and push:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git remote add source https://github.com/yourusername/myblog.git
+</span></span><span style="display:flex;"><span>git remote add pages https://github.com/yourusername/yourusername.github.io.git
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit with Hugo site&#34;</span>
+</span></span><span style="display:flex;"><span>git push source main
+</span></span></code></pre></div><p>The GitHub Actions workflow will automatically build and deploy your blog.</p>
 
         
       </section>
@@ -355,7 +439,7 @@
   <div>
   
   <p>
-    © 2016 - 2025 Hugo Theme Dream
+    © 2016 - 2025 This is Kexin&#39;s Blog
   </p>
   
 
@@ -420,7 +504,7 @@
   <div>
   
   <p>
-    © 2016 - 2025 Hugo Theme Dream
+    © 2016 - 2025 This is Kexin&#39;s Blog
   </p>
   
 
@@ -480,12 +564,16 @@
 
   
   
-  <script src="/js/grid.js"></script>
+    
+  
+  <script src="/js/grid.min.js"></script>
 
 
 
 
-<script src="/js/main.js"></script>
+  
+
+<script src="/js/main.min.js"></script>
 
     
 
@@ -495,7 +583,9 @@
 
 
 
-<script src="/js/toc.js"></script>
+  
+
+<script src="/js/toc.min.js"></script>
 
 
 

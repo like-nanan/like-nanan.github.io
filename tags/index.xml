@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Theme Dream</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Hugo Theme Dream</description>
+    <title>Tags on This is Kexin&#39;s Blog</title>
+    <link>https://like-nanan.github.io/tags/</link>
+    <description>Recent content in Tags on This is Kexin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 May 2025 17:00:59 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 May 2025 19:30:41 +0800</lastBuildDate>
+    <atom:link href="https://like-nanan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag1</title>
-      <link>http://localhost:1313/tags/tag1/</link>
-      <pubDate>Sat, 24 May 2025 17:00:59 +0800</pubDate>
-      <guid>http://localhost:1313/tags/tag1/</guid>
+      <link>https://like-nanan.github.io/tags/tag1/</link>
+      <pubDate>Sat, 24 May 2025 19:30:41 +0800</pubDate>
+      <guid>https://like-nanan.github.io/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>http://localhost:1313/tags/tag2/</link>
-      <pubDate>Sat, 24 May 2025 17:00:59 +0800</pubDate>
-      <guid>http://localhost:1313/tags/tag2/</guid>
+      <link>https://like-nanan.github.io/tags/tag2/</link>
+      <pubDate>Sat, 24 May 2025 19:30:41 +0800</pubDate>
+      <guid>https://like-nanan.github.io/tags/tag2/</guid>
       <description></description>
     </item>
   </channel>
